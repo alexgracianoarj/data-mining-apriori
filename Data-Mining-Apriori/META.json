@@ -1,0 +1,51 @@
+{
+   "abstract" : "Perl extension for implement the apriori algorithm of data mining.",
+   "author" : [
+      "Alex Graciano <agraciano@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 7.3, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Data-Mining-Apriori",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Algorithm::Combinatorics" : "0.27"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/alexgracianoarj/data-mining-apriori/issues"
+      },
+      "homepage" : "https://alexgracianoarj.github.io/data-mining-apriori",
+      "repository" : {
+         "url" : "https://github.com/alexgracianoarj/data-mining-apriori"
+      }
+   },
+   "version" : 0.17,
+   "x_serialization_backend" : "JSON::PP version 2.94"
+}
