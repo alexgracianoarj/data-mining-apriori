@@ -294,6 +294,11 @@ File contents (example):
 
 * `association_rules` - Generate association rules by length of large itemsets.
 
+### Screenshots
+
+![image](/screenshots/output_length_2.png)
+![image](/screenshots/output_length_3.png)
+
 ### AUTHOR
 
 Alex Graciano, [agraciano@cpan.org](mailto:agraciano@cpan.org)
